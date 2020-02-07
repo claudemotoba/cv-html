@@ -1,9 +1,33 @@
 body{
     margin: auto;
+    background-color: #BDBDBD;
 }
 .page{
     margin: 20px 30px 20px 30px;
 }
+.ex{
+    text-align: center;
+    margin-top: 3%;
+}
+.articles{
+    margin-left: 30%;
+    margin-top: 8%;
+    border-radius: 20px;
+    font-size: 20px;
+    border: black solid 2px;
+    width: 40%;
+    padding: 20px;
+    box-shadow: 6px 6px 6px 6px #D8D8D8;
+}
+button{
+    width: 10%;
+    height: 30px;
+    margin-left: 45%;
+    background-color: brown;
+    margin-top: 5%;
+}
+
+
 img{
     height: 19%;
     width: 19%;
@@ -15,24 +39,6 @@ img{
 .nom{
     text-align: center;
     font-size: 25px;
-}
-.articles{
-    border: black solid 2px;
-    width: 40%;
-    padding: 20px;
-    border-radius: 20px;
-    font-size: 20px;
-    box-shadow: 6px 6px 6px 6px #BDBDBD;
-}
-.article{
-    border: black solid 2px;
-    border-radius: 20px;
-    width: 43%;
-    margin-left: 45%;
-    margin-top: 18%;
-    padding: 20px;
-    font-size: 22px;
-    box-shadow: 6px 6px 6px 6px #BDBDBD;
 }
 .title_p{
     margin-left: 17%;
@@ -66,6 +72,7 @@ img{
 }
 .contact{
     margin-left: 45%;
+    font-size: 25px;
 }
 .bas{
     margin-left: 45%;
@@ -94,6 +101,7 @@ img{
 a{
     color: black;
     text-decoration: none;
+    font-size: 19px;
 }
 a :hover{
     color: red;
@@ -104,7 +112,6 @@ li {
     margin: 50px 0;
     font-weight: 100;
     margin-left: 10%;
-    text-transform: uppercase;
 }
 li:before {
     content: "";
@@ -112,7 +119,7 @@ li:before {
     top: calc(100% + 10px);
     left: 0px;
     width: 100%;
-    height: 15px;
+    height: 9px;
     background-color: rgba(54, 126, 223, .5);
     border-radius: 1000px;
 }
@@ -122,8 +129,8 @@ li:after {
     top: calc(100% + 10px);
     left: 0;
     width: 0;
-    height: 15px;
-    background-color: rgba(54, 126, 223, 1);
+    height: 9px;
+    background-color: #FE9A2E;
     border-radius: 1000px;
     animation-duration: .7s;
     animation-timing-function: ease;
