@@ -5,6 +5,23 @@ body{
 .page{
     margin: 20px 30px 20px 30px;
 }
+.bt{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 45%;
+}
+.bouton{
+    width: 100px;
+    height: 100px;
+}
 .ex{
     text-align: center;
     margin-top: 3%;
@@ -14,16 +31,16 @@ body{
     margin-top: 8%;
     border-radius: 20px;
     font-size: 20px;
-    border: black solid 2px;
+    border: 2px solid white;
     width: 40%;
     padding: 20px;
     box-shadow: 6px 6px 6px 6px #D8D8D8;
 }
 button{
-    width: 10%;
-    height: 30%;
+    width: 120px;
+    height: 40px;
     margin-left: 45%;
-    background-color: brown;
+    background-color: blueviolet;
     margin-top: 5%;
 }
 img{
@@ -47,13 +64,13 @@ img{
     margin-left: 68%;
 }
 .co{
-    margin-top: 5%;
+    margin-top: -5%;
     margin-left: 20%;
 
 }
 .la{
-    margin-left: 68%;
-    margin-top: -4%;
+    margin-left: 57%;
+    margin-top: -5%;
 }
 .containeur {
     width: 40%;
@@ -69,12 +86,14 @@ img{
     margin-top: -40%;
 }
 .contact{
-    margin-left: 47%;
+    text-align: center;
     font-size: 25px;
 }
 .bas{
-    margin-left: 45%;
+    
+    text-align: center;
     margin-top: 10%;
+    font-size: 25px;
 }
 .lien{
     list-style-type: none;
@@ -97,7 +116,7 @@ img{
     background-color: red;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 19px;
 }
@@ -212,5 +231,271 @@ li.fr:after {
 @keyframes fr {
     to {
         width: 80%;
+    }
+}
+@media screen and (max-width:375px){
+    .nom{
+        font-size: 15px;
+        text-align: center;
+    }
+    .img{
+        margin-left: 0%;
+    }
+    .containeur {
+        width: 30%;
+    }
+    body{
+        font-size: 20px;
+    }
+    .co{
+        margin-right: 80%;
+        font-size: 18px;
+    }
+    .containeur{
+        font-size: 15px;
+        width: 40%;
+        margin: 50px 0 0 0px;
+        padding: 0px;
+        margin-right: 80%;
+    }
+    .la{
+        font-size: 18px;
+    }
+    .containers {
+        width: 40%;
+        margin: 50px auto 0;
+        padding: 0px;
+        margin-right: 60%;
+        margin-top: 5%;
+    }
+    .bas{
+        font-size: 18px;
+    }
+    .contact{
+        margin-right: 20px;
+    }
+    body{
+        margin: auto;
+        background-color: #BDBDBD;
+    }
+}
+@media screen and (max-width:414px){
+    .nom{
+        font-size: 15px;
+        text-align: center;
+    }
+    .img{
+        margin-left: 0%;
+    }
+    body{
+        font-size: 20px;
+    }
+    .co{
+        margin-right: 80%;
+        font-size: 18px;
+    }
+    .containeur{
+        font-size: 15px;
+        width: 40%;
+        margin: 50px 0 0 0px;
+        padding: 0px;
+        margin-right: 80%;
+    }
+    .la{
+        font-size: 18px;
+    }
+    .containers {
+        width: 40%;
+        margin: 50px auto 0;
+        padding: 0px;
+        margin-left: 55%;
+        margin-top: -490px;
+        text-align: center;
+    }
+    .bas{
+        font-size: 18px;
+    }
+    .contact{
+        margin-top: 55%;
+    }
+    body{
+        margin: auto;
+        background-color: #BDBDBD;
+    }
+}
+@media screen and (max-width:768px){
+    .nom{
+        font-size: 15px;
+        text-align: center;
+    }
+    .img{
+        margin-left: 0%;
+    }
+    body{
+        font-size: 20px;
+    }
+    .co{
+        margin-right: 80%;
+        font-size: 18px;
+    }
+    .containeur{
+        font-size: 15px;
+        width: 40%;
+        margin: 50px 0 0 0px;
+        padding: 0px;
+        margin-right: 80%;
+    }
+    .la{
+        font-size: 18px;
+    }
+    .containers {
+        width: 40%;
+        margin: 50px auto 0;
+        padding: 0px;
+        margin-left: 55%;
+        margin-top: -490px;
+        text-align: center;
+    }
+    .bas{
+        font-size: 18px;
+    }
+    .contact{
+        margin-top: 25%;
+    }
+    body{
+        margin: auto;
+        background-color: #BDBDBD;
+    }
+}
+@media screen and (max-width:1024px){
+    .nom{
+        font-size: 15px;
+        text-align: center;
+    }
+    .img{
+        margin-left: 0%;
+    }
+    body{
+        font-size: 20px;
+    }
+    .co{
+        margin-right: 80%;
+        font-size: 18px;
+    }
+    .containeur{
+        font-size: 15px;
+        width: 40%;
+        margin: 50px 0 0 0px;
+        padding: 0px;
+        margin-right: 80%;
+    }
+    .la{
+        font-size: 18px;
+    }
+    .containers {
+        width: 40%;
+        margin: 50px auto 0;
+        padding: 0px;
+        margin-left: 55%;
+        margin-top: -490px;
+        text-align: center;
+    }
+    .bas{
+        font-size: 18px;
+    }
+    .contact{
+        margin-top: 25%;
+    }
+    body{
+        margin: auto;
+        background-color: #BDBDBD;
+    }
+}
+@media screen and (max-width:360px){
+    .nom{
+        font-size: 15px;
+        text-align: center;
+    }
+    .img{
+        margin-left: 0%;
+    }
+    body{
+        font-size: 20px;
+    }
+    .co{
+        margin-right: 80%;
+        font-size: 18px;
+    }
+    .containeur{
+        font-size: 15px;
+        width: 40%;
+        margin: 50px 0 0 0px;
+        padding: 0px;
+        margin-right: 80%;
+    }
+    .la{
+        font-size: 18px;
+    }
+    .containers {
+        width: 40%;
+        margin: 50px auto 0;
+        padding: 0px;
+        margin-left: 55%;
+        margin-top: -490px;
+        text-align: center;
+    }
+    .bas{
+        font-size: 18px;
+    }
+    .contact{
+        margin-top: 500px;
+    }
+    body{
+        margin: auto;
+        background-color: #BDBDBD;
+    }
+}
+@media screen and (max-width:2345px){
+    .nom{
+        font-size: 15px;
+        text-align: center;
+    }
+    .img{
+        margin-left: 0%;
+    }
+    body{
+        font-size: 20px;
+    }
+    .co{
+        margin-right: 80%;
+        font-size: 18px;
+    }
+    .containeur{
+        font-size: 15px;
+        width: 40%;
+        margin: 50px 0 0 0px;
+        padding: 0px;
+        margin-right: 80%;
+    }
+    .la{
+        font-size: 18px;
+    }
+    .containers {
+        width: 40%;
+        margin: 50px auto 0;
+        padding: 0px;
+        margin-left: 55%;
+        margin-top: -490px;
+        text-align: center;
+    }
+    .bas{
+        font-size: 18px;
+    }
+    .contact{
+        margin-top: 5%;
+    }
+    body{
+        margin: auto;
+        background-color: #BDBDBD;
     }
 }

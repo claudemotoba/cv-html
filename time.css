@@ -121,10 +121,11 @@ body {
     font-family: Helvetica, sans-serif;
   }
 button{
-    width: 10%;
-    height: 30px;
-    margin-left: 45%;
-    background-color: brown;
+    width: 120px;
+    height: 40px;
+    margin-left: 46%;
+    background-color: blueviolet;
+    margin-top: -2px;
 }
 button :hover{
     transform: scale(1.01);
